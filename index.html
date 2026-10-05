@@ -16,7 +16,7 @@
                     <a href="/" class="logo rounded-circle border border-2 border-white d-flex align-items-center justify-content-center text-white text-decoration-none fw-bold">Лого</a>
                 </div>
                 <div class="col">
-                    <h1 class="text-center">Сайт КубГУ</h1>
+                    <h1 class="text-start">Сайт КубГУ</h1>
                 </div>
             </div>
         </div>
@@ -257,132 +257,84 @@
             </section>
 
             <!-- ===================== ФОРМА ===================== -->
-            <section class="col-12 order-3" id="form-section">
-                <div class="block p-3 p-md-4">
-                    <h2 class="h3 mb-3">Форма</h2>
-                    <form action="#" method="post">
-                        <div class="row g-3">
-                            <div class="col-12 col-md-6">
-                                <label for="fullname" class="form-label">1. ФИО:</label>
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="fullname"
-                                    name="fullname"
-                                    placeholder="Иванов Иван Иванович"
-                                >
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="phone" class="form-label">2. Телефон:</label>
-                                <input
-                                    type="tel"
-                                    class="form-control"
-                                    id="phone"
-                                    name="phone"
-                                    placeholder="+7 (918) 111-22-33"
-                                >
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="email" class="form-label">3. E-mail:</label>
-                                <input
-                                    type="email"
-                                    class="form-control"
-                                    id="email"
-                                    name="email"
-                                    placeholder="post@yandex.ru"
-                                >
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="birthdate" class="form-label">4. Дата рождения:</label>
-                                <input
-                                    type="date"
-                                    class="form-control"
-                                    id="birthdate"
-                                    name="birthdate"
-                                >
-                            </div>
-                            <div class="col-12">
-                                <fieldset class="border-0">
-                                    <legend class="form-label fs-6">Пол</legend>
-                                    <div class="form-check form-check-inline">
-                                        <input
-                                            class="form-check-input"
-                                            type="radio"
-                                            name="gender"
-                                            id="gender-male"
-                                            value="male"
-                                        >
-                                        <label class="form-check-label" for="gender-male">Мужской</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input
-                                            class="form-check-input"
-                                            type="radio"
-                                            name="gender"
-                                            id="gender-female"
-                                            value="female"
-                                        >
-                                        <label class="form-check-label" for="gender-female">Женский</label>
-                                    </div>
-                                </fieldset>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="languages" class="form-label">
-                                    6. Любимый язык программирования (можно выбрать несколько):
-                                </label>
-                                <select
-                                    class="form-select"
-                                    id="languages"
-                                    name="languages"
-                                    multiple
-                                    size="4"
-                                >
-                                    <option value="pascal">Pascal</option>
-                                    <option value="c">C</option>
-                                    <option value="cpp">C++</option>
-                                    <option value="javascript">JavaScript</option>
-                                    <option value="php">PHP</option>
-                                    <option value="python">Python</option>
-                                    <option value="java">Java</option>
-                                    <option value="haskell">Haskell</option>
-                                    <option value="clojure">Clojure</option>
-                                    <option value="prolog">Prolog</option>
-                                    <option value="scala">Scala</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="bio" class="form-label">7. Биография:</label>
-                                <textarea
-                                    class="form-control"
-                                    id="bio"
-                                    name="bio"
-                                    rows="5"
-                                    placeholder="Расскажите что-то о себе..."
-                                ></textarea>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="checkbox"
-                                        name="contract"
-                                        id="contract"
-                                        value="yes"
-                                    >
-                                    <label class="form-check-label" for="contract">
-                                        8. С контрактом ознакомлен(а)
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary px-4">
-                                    9. Сохранить
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+       <section class="col-12 order-3" id="form-section">
+    <div class="block p-3 p-md-4">
+        <h2 class="h3 mb-3">Форма</h2>
+
+        <form action="#" method="post">
+            <div class="row g-3">
+                <div class="col-12 col-md-6">
+                    <label for="fullname" class="form-label">1. ФИО:</label>
+                    <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Иванов Иван Иванович">
                 </div>
-            </section>
+
+                <div class="col-12 col-md-6">
+                    <label for="phone" class="form-label">2. Телефон:</label>
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="+7 (918) 111-22-33">
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <label for="email" class="form-label">3. E-mail:</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="post@yandex.ru">
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <label for="birthdate" class="form-label">4. Дата рождения:</label>
+                    <input type="date" class="form-control" id="birthdate" name="birthdate">
+                </div>
+
+               <div class="col-12">
+    <label class="form-label d-block">5. Пол:</label>
+    <div class="d-flex gap-3">
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="gender" id="gender-male" value="male">
+            <label class="form-check-label" for="gender-male">Мужской</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="gender" id="gender-female" value="female">
+            <label class="form-check-label" for="gender-female">Женский</label>
+        </div>
+    </div>
+</div>
+
+
+
+                <div class="col-12 col-md-6">
+                    <label for="languages" class="form-label">6. Любимый язык программирования (можно выбрать несколько):</label>
+                    <select class="form-select" id="languages" name="languages[]" multiple size="11">
+                        <option value="pascal">Pascal</option>
+                        <option value="c">C</option>
+                        <option value="cpp">C++</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="php">PHP</option>
+                        <option value="python">Python</option>
+                        <option value="java">Java</option>
+                        <option value="haskell">Haskell</option>
+                        <option value="clojure">Clojure</option>
+                        <option value="prolog">Prolog</option>
+                        <option value="scala">Scala</option>
+                    </select>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <label for="bio" class="form-label">7. Биография:</label>
+                    <textarea class="form-control" id="bio" name="bio" rows="10" placeholder="Расскажите что-то о себе..."></textarea>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="contract" id="contract" value="yes">
+                        <label class="form-check-label" for="contract">8. С контрактом ознакомлен(а)</label>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary px-4">9. Сохранить</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>     
 
         </div>
     </main>
