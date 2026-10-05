@@ -1,0 +1,95 @@
+/* ==================================================
+   Стили поверх Bootstrap: цвета, шрифты, оформление.
+   Сетка, адаптивность и отступы заданы классами Bootstrap.
+   ================================================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+
+/* ---------- Шапка ---------- */
+
+.site-header,
+.main-nav,
+.site-footer {
+    background: #2c7be5;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    font-family: Georgia, serif;
+}
+
+.site-title,
+h2 {
+    font-family: Georgia, serif;
+}
+
+
+/* ---------- Меню ---------- */
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ---------- Блоки ---------- */
+
+.block {
+    background: #cfe2ff;
+    border: 1px solid #2c7be5;
+}
+
+.block h2 {
+    color: #1a4f9c;
+    font-weight: normal;
+}
+
+.block a {
+    color: #1a4f9c;
+}
+
+.block ul {
+    list-style: square;
+}
+
+
+/* ---------- Таблица ---------- */
+
+.data-table {
+    --bs-table-bg: #ffffff;
+    --bs-table-striped-bg: #eaf2ff;
+    --bs-table-border-color: #2c7be5;
+}
+
+.data-table thead th {
+    background: #2c7be5;
+    color: #ffffff;
+}
+
+.data-table tbody tr td.total-row {
+    --bs-table-bg-type: #bcd6ff;
+    background: #bcd6ff;
+}
+
+
+/* ---------- Форма ---------- */
+
+.block .form-control,
+.block .form-select {
+    border-color: #2c7be5;
+}
+
+.block .btn-primary {
+    background: #2c7be5;
+    border-color: #2c7be5;
+}
+
+.block .btn-primary:hover {
+    background: #1a4f9c;
+    border-color: #1a4f9c;
+}
