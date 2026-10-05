@@ -9,9 +9,7 @@ body {
     color: #222;
 }
 
-
 /* ---------- Шапка ---------- */
-
 .site-header,
 .main-nav,
 .site-footer {
@@ -29,16 +27,12 @@ h2 {
     font-family: Georgia, serif;
 }
 
-
 /* ---------- Меню ---------- */
-
 .main-nav a:hover {
     text-decoration: underline;
 }
 
-
 /* ---------- Блоки ---------- */
-
 .block {
     background: #cfe2ff;
     border: 1px solid #2c7be5;
@@ -57,9 +51,7 @@ h2 {
     list-style: square;
 }
 
-
 /* ---------- Таблица ---------- */
-
 .data-table {
     --bs-table-bg: #ffffff;
     --bs-table-striped-bg: #eaf2ff;
@@ -72,13 +64,10 @@ h2 {
 }
 
 .data-table tbody tr td.total-row {
-    --bs-table-bg-type: #bcd6ff;
     background: #bcd6ff;
 }
 
-
 /* ---------- Форма ---------- */
-
 .block .form-control,
 .block .form-select {
     border-color: #2c7be5;
@@ -92,4 +81,16 @@ h2 {
 .block .btn-primary:hover {
     background: #1a4f9c;
     border-color: #1a4f9c;
+}
+
+/* ---------- Адаптация для очень узких экранов ---------- */
+@media (max-width: 360px) {
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    .block .form-select,
+    .block .form-control {
+        font-size: 0.9rem;
+    }
 }
